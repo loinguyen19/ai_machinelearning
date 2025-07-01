@@ -1,0 +1,17 @@
+services:
+  dispatch_monitor:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./dataset:/app/dataset:ro
+      - ./1473_CH05_20250501133703_154216.mp4:/app/1473_CH05_20250501133703_154216.mp4:ro
+      - ./feedback_log.json:/app/feedback_log.json
+      - ./retraining_frames:/app/retraining_frames
+    environment:
+      - XDG_RUNTIME_DIR=/tmp
+      - VIDEO_FILE=/app/1473_CH05_20250501133703_154216.mp4
+      - FEEDBACK_LOG_PATH=/app/feedback_log.json
+      - DATASET_YAML=/app/dataset/detection/dataset.yaml
+      - DATASET_PATH=/app/dataset
+    command: python src/main.py
