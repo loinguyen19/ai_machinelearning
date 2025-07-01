@@ -60,8 +60,12 @@ AU_Dispatch_Monitoring_System/
 ### Setup Instructions
 Setup Instructions
 
-### NOTE: Please download/extract the AU Dispatch Monitoring System files, such as: video, dataset folder and put it in the repo as the Project structure above (in the root level)
-Note: Install Makefile plugin if wanted
+### NOTE 1: Please download/extract the AU Dispatch Monitoring System files, such as: video, dataset folder and put it in the repo as the Project structure above (in the root level)
+### NOTE 2: If you want to run locally, please clone the YOLOv5 in your local repository under root directory
+```
+git clone https://github.com/ultralytics/yolov5.git
+```
+### Note 3: Install Makefile plugin if wanted
 
 Add environment variables:
 ```
