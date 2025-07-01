@@ -22,7 +22,7 @@ Deployed with Docker Compose for CPU/GPU environments.
 
 ### Project Structure
 ```
-dispatch-monitoring-system/
+AU_Dispatch_Monitoring_System/
 ├── src/
 │   ├── __init__.py
 │   ├── detection.py       # YOLOv5 detection logic
@@ -40,7 +40,7 @@ dispatch-monitoring-system/
 
 #### Dataset structure:
 ```
-dispatch-monitoring-system/
+AU_Dispatch_Monitoring_System/
 ├── video.mp4  # Video of restaurant activities
 ├── dataset/
 │   ├── classification/
@@ -71,6 +71,8 @@ dispatch-monitoring-system/
 
 ### Setup Instructions
 Setup Instructions
+
+### NOTE: Please download/extract the AU Dispatch Monitoring System files, such as: video, dataset folder and put it in the repo as the Project structure above (in the root level)
 
 Note: Install Makefile plugin if wanted
 
