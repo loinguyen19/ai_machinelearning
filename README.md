@@ -51,6 +51,7 @@ AU_Dispatch_Monitoring_System/
 ```
 
 ### Prerequisites
+### * Please rename the folder ai_machinelearning into AU_Dispatch_Monitoring_System as code structure above
 + Docker: Install Docker and Docker Compose. (from website: ../web)
 + Docker Installation
 + Docker Compose Installation
