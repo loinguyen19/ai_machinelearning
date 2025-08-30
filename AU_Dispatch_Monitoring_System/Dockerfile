@@ -36,7 +36,7 @@ RUN mkdir "retraining_frames"
 WORKDIR /app
 
 # Copy application code
-COPY src/ ./src/
+COPY src ./src/
 COPY 1473_CH05_20250501133703_154216.mp4 .
 COPY dataset/ ./dataset/
 COPY /yolov5 /app/yolov5

@@ -1,7 +1,7 @@
 services:
   dispatch_monitor:
     build:
-      context: .
+      context: ..
       dockerfile: Dockerfile
     volumes:
       - ./dataset:/app/dataset:ro
